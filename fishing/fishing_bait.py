@@ -42,7 +42,7 @@ def copy_file_to_partitions():
 
         except Exception as e:
             print("Error:", e)
-        time.sleep(2)
+        time.sleep(5)
 
 def put_file_in_startup(file_path):
     # Get the path to the startup folder
